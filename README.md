@@ -1,13 +1,13 @@
-# 🧠 Fine-Tuning NLLB for English–Wolof Translation (Latin Script)
+# 🧠 Fine-Tuning NLLB for Language Translation
 
-This project fine-tunes Meta AI’s NLLB (No Language Left Behind) model to translate from **English** to **Wolof (LaTn)**, a low-resource language using the Latin script. The training pipeline leverages Hugging Face’s ecosystem to tokenize data, fine-tune multilingual transformers, and evaluate translation quality using standard metrics.
+This project fine-tunes Meta AI’s NLLB (No Language Left Behind) model to translate from **English** to **selected language (LaTn)**, especially low-resource languages. The training pipeline leverages Hugging Face’s ecosystem to tokenize data, fine-tune multilingual transformers, and evaluate translation quality using standard metrics.
 
 ---
 
 ## 📌 Project Highlights
 
-- 🔤 Language Pair: `English → Wolof (LaTn)`
-- 🧰 Model Base: [facebook/nllb-200-distilled-1.3B](https://huggingface.co/facebook/nllb-200-distilled-1.3B)
+- 🔤 Language Pair: `English → ....`
+- 🧰 Model Base: [facebook/nllb-200-distilled-1.3B](https://huggingface.co/facebook/nllb-200-distilled-600M)
 - ⚙️ Tools: Hugging Face Transformers, Datasets, Evaluate, and Colab (or local GPU)
 - 📄 Format: Python code implemented in a Jupyter Notebook
 
