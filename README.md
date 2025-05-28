@@ -34,4 +34,4 @@ BLEU Score – Measures n-gram overlap between candidate and reference translati
 
 
 ## Warning
-Translations in some way are not very accurate. However, this note shows the implementation steps for a Seq2Seq fine-tuning process.
+Translations in some way may not be very accurate. However, this note shows the implementation steps for a Seq2Seq fine-tuning process.
