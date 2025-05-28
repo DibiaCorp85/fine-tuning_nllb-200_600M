@@ -28,10 +28,10 @@ BLEU Score – Measures n-gram overlap between candidate and reference translati
 
 ## 🙏 Acknowledgements
 - Meta AI – for releasing the NLLB-200 model
-- Hugging Face – for transformers, datasets, and evaluate libraries
+- Hugging Face – for transformers, datasets, and evaluation libraries
 - JW300 / MENYO-20k / ROGENDO – multilingual parallel corpora for low-resource African languages
 - Google Colab – free GPU access for prototyping and training
 
 
-## Warning
-Translations in some way may not be very accurate. However, this note shows the implementation steps for a Seq2Seq fine-tuning process.
+## Take-Away
+Efficient translation models capable of an appreciable degree of accurate English-to-African-language translation. These notebooks show the implementation steps for a Seq2Seq fine-tuning process.
